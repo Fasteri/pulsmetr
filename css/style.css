@@ -179,6 +179,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #ffffff;
     margin-bottom: 17px; }
   .promo__subheader {
+    text-align: center;
     font-size: 24px;
     font-weight: 500;
     text-transform: uppercase;
@@ -325,10 +326,14 @@ h1, h2, h3, h4, h5, h6 {
       -webkit-box-align: center;
           -ms-flex-align: center;
               align-items: center; }
-      .header__contacts a {
-        margin-bottom: 0;
-        margin-right: 15px; }
+    .header__phone {
+      margin-bottom: 0;
+      margin-right: 15px; }
 
+  .advant img {
+    margin-bottom: 12px; }
+  .advant__subtitle {
+    margin-bottom: 13px; }
   .advant__items {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -340,14 +345,9 @@ h1, h2, h3, h4, h5, h6 {
         -ms-flex: 1 1 auto;
             flex: 1 1 auto;
     margin-bottom: 45px;
-    max-width: 400px; } }
-@media (max-width: 686px) {
-  .advant img {
-    margin-bottom: 12px; }
-  .advant__subtitle {
-    margin-bottom: 13px; }
-  .advant__item {
-    max-width: 500px; } }
+    max-width: 425px; }
+    .advant__item p {
+      font-size: 16px; } }
 @media (max-width: 530px) {
   .promo__header {
     font-size: 20px; }
@@ -355,10 +355,10 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 15px;
     margin-bottom: 100px; }
   .promo__icons {
-    width: 350px;
+    max-width: 350px;
     margin-bottom: 110px; }
   .promo__icon img {
-    max-width: 35px; }
+    max-width: 40px; }
 
   .button {
     width: 120px;
@@ -387,10 +387,31 @@ h1, h2, h3, h4, h5, h6 {
       -webkit-box-align: end;
           -ms-flex-align: end;
               align-items: end; }
-      .header__contacts a {
-        margin: 0 0 4px 0;
-        font-size: 12px; }
+    .header__phone {
+      margin: 0 0 4px 0;
+      font-size: 12px; }
 
   .advant__title {
     font-size: 20px;
     margin-bottom: 50px; } }
+@media (max-width: 385px) {
+  .header__logo img {
+    width: 180px; }
+  .header__phone {
+    font-size: 10px; }
+  .header .button {
+    width: 100px;
+    font-size: 10px; }
+
+  .promo__subheader {
+    margin-bottom: 50px; }
+  .promo__icons {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 20px; }
+  .promo__icon {
+    margin-bottom: 35px; }
+    .promo__icon img {
+      max-width: 40px; } }

@@ -135,6 +135,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 		margin-bottom: 17px;
 	}
 	&__subheader {
+		text-align: center;
 		font-size: 24px;
 		font-weight: 500;
 		text-transform: uppercase;
@@ -248,7 +249,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 	}
 	.promo{
 
-		// min-height: 600px;
 		padding: 24px 10px 40px 10px;
 		&__wrapper{
 			align-items:center;
@@ -281,13 +281,21 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 			margin-top: 15px;
 			flex-direction: row;
 			align-items:center;
-			& a{
+		}
+		&__phone{
 				margin-bottom: 0;
 				margin-right: 15px;
 			}
-		}
+		
 	}
 	.advant{
+		img{
+			margin-bottom: 12px;
+		}
+		
+		&__subtitle{
+			margin-bottom: 13px;
+		}
 		&__items{
 			justify-content: center;
 			flex-wrap: wrap;
@@ -295,31 +303,16 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 		&__item{
 			flex: 1 1 auto;
 			margin-bottom: 45px;
-			max-width: 400px;
-
+			max-width: 425px;
+			& p{
+				font-size: 16px;
+			}
 		}	
 	}	
 
 }
 
-@media(max-width:686px)
-{
-	.promo{
-	}
-	.advant{
-			img{
-				margin-bottom: 12px;
-			}
-			
-			&__subtitle{
-				margin-bottom: 13px;
-			}
-			&__item{
-				max-width: 500px;
-			}
 
-	}
-}
 
 @media(max-width:530px){
 
@@ -332,11 +325,11 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 			margin-bottom: 100px;
 		}
 		&__icons{
-			width: 350px;
+			max-width: 350px;
 			margin-bottom: 110px;
 			}
 		&__icon img{
-			max-width: 35px;
+			max-width: 40px;
 		}
 	}
 	.button{
@@ -365,11 +358,12 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 			margin: 0 auto;
 			flex-direction: column;
 			align-items: end;
-			& a{
+		}
+		&__phone{
 				margin:0 0 4px 0;
 				font-size: 12px;
-			}
 		}
+		
 	}
 	.advant{
 		&__title{
@@ -378,5 +372,39 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 		}
 	}
 
+}
+
+@media(max-width:385px){
+	.header{
+		&__logo{
+			img{
+				width: 180px;
+			}
+		}
+		&__phone{
+			font-size: 10px;			
+		}
+		.button{
+			width: 100px;
+			font-size: 10px;
+
+		}
+	}
+	.promo{
+		&__subheader{
+			margin-bottom: 50px;
+		}
+		&__icons{
+		 flex-direction: column;
+		 margin-bottom: 20px;
+		}	
+		&__icon{
+			margin-bottom: 35px;
+			img{
+				max-width: 40px;
+			}
+		}	
+
+	}
 }
 
