@@ -226,6 +226,7 @@ h1, h2, h3, h4, h5, h6 {
       color: #ffffff; }
 
 .advant {
+  background-color: #f6f6f6;
   padding: 70px 0 78px 0; }
   .advant__title {
     font-size: 30px;
@@ -242,9 +243,9 @@ h1, h2, h3, h4, h5, h6 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center; }
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
     .advant__items p {
       text-align: center;
       font-size: 14px;
@@ -256,7 +257,7 @@ h1, h2, h3, h4, h5, h6 {
         text-decoration: underline;
         color: #ff0000; }
   .advant__item {
-    max-width: 400px;
+    max-width: 240px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -267,7 +268,7 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    padding: 0 10px; }
+    padding: 0 15px; }
     .advant__item img {
       margin-bottom: 38px; }
 
@@ -329,6 +330,9 @@ h1, h2, h3, h4, h5, h6 {
         margin-right: 15px; }
 
   .advant__items {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap; }
   .advant__item {
@@ -349,10 +353,10 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 20px; }
   .promo__subheader {
     font-size: 15px;
-    margin-bottom: 80px; }
+    margin-bottom: 100px; }
   .promo__icons {
     width: 350px;
-    margin-bottom: 90px; }
+    margin-bottom: 110px; }
   .promo__icon img {
     max-width: 35px; }
 
