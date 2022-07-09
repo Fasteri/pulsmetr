@@ -82,6 +82,33 @@ h1, h2, h3, h4, h5, h6 {
   /* Chrome < 4, Legacy iOS */
   font-weight: 700;
   font-style: normal; }
+.feed-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 300px; }
+  .feed-form input {
+    opacity: 1;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 0 20px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #4b4b4b; }
+    .feed-form input:last-of-type {
+      margin-bottom: 20px; }
+  .feed-form button {
+    width: 100%;
+    height: 55px;
+    background-color: #c70101;
+    border-radius: 5px; }
+
 .button {
   font-size: 12px;
   line-height: 1.2;
@@ -277,6 +304,23 @@ h1, h2, h3, h4, h5, h6 {
     .advant__item img {
       margin-bottom: 38px; }
 
+.consultantation {
+  background: url(../img/form_bg.jpg) center center/cover no-repeat;
+  min-height: 680px;
+  padding: 100px 0 92px 0; }
+  .consultantation__title {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 80px; }
+  .consultantation__descr {
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #ffffff;
+    margin-bottom: 36px; }
+
 @media (max-width: 1024px) {
   .container {
     max-width: 800px; }
@@ -285,7 +329,10 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 950px; }
 
   .promo {
-    background: url(../img/bg_header_2.jpg) center center/cover no-repeat; } }
+    background: url(../img/bg_header_2.jpg) center center/cover no-repeat; }
+
+  .consultantation__title {
+    font-size: 30px; } }
 @media (max-width: 850px) {
   .container {
     min-width: 0; }
@@ -302,7 +349,17 @@ h1, h2, h3, h4, h5, h6 {
       font-size: 18px; }
 
   .advant {
-    padding: 25px 0 20px 0; } }
+    padding: 25px 0 35px 0; }
+    .advant__title {
+      margin-bottom: 50px; }
+
+  .consultantation {
+    padding: 60px 0;
+    min-height: 500px; }
+    .consultantation__title {
+      margin-bottom: 50px; }
+    .consultantation .container {
+      max-width: 650px; } }
 @media (max-width: 685px) {
   .header {
     -ms-flex-wrap: wrap;
@@ -351,7 +408,20 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 45px;
     max-width: 425px; }
     .advant__item p {
-      font-size: 16px; } }
+      font-size: 16px; }
+
+  .consultantation .container {
+    max-width: 500px; }
+  .consultantation .feed-form {
+    margin: 0 auto; }
+  .consultantation__title {
+    line-height: 1.2;
+    text-align: center;
+    font-size: 25px;
+    margin: 0 auto;
+    margin-bottom: 50px; }
+  .consultantation__descr {
+    text-align: center; } }
 @media (max-width: 530px) {
   .promo__header {
     font-size: 20px; }
@@ -400,7 +470,22 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 50px; } }
 @media (max-width: 430px) {
   .advant__item {
-    max-width: 320px; } }
+    max-width: 320px; }
+
+  .consultantation {
+    padding: 45px 0; }
+    .consultantation__title {
+      line-height: 1.2;
+      text-align: center;
+      font-size: 17px;
+      max-width: 70%;
+      margin-bottom: 40px; }
+    .consultantation__descr {
+      text-align: center;
+      font-size: 14px;
+      max-width: 70%;
+      margin: 0 auto;
+      margin-bottom: 30px; } }
 @media (max-width: 320px) {
   .header__logo img {
     width: 180px; }
@@ -421,7 +506,10 @@ h1, h2, h3, h4, h5, h6 {
   .promo__icon {
     margin-bottom: 35px; }
     .promo__icon img {
-      max-width: 40px; } }
+      max-width: 40px; }
+
+  .consultantation .feed-form {
+    width: 250px; } }
 @media (max-width: 355px) and (min-width: 321px) {
   .promo__icons {
     max-width: 320px; }
