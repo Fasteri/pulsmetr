@@ -9,8 +9,6 @@ $(document).ready(function(){
             {
               breakpoint: 530,
               settings: {
-                slidesToShow: 1,
-		        slidesToScroll: 1,
                 arrows: false,
                 infinite: true,
                 // dots: true,

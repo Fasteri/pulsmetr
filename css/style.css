@@ -350,6 +350,7 @@ h1, h2, h3, h4, h5, h6 {
       width: 31px;
       height: 50px; }
   .carousel .slick-dots {
+    margin-top: 15px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -364,8 +365,8 @@ h1, h2, h3, h4, h5, h6 {
       margin: 0 10px; }
     .carousel .slick-dots button {
       font-size: 0;
-      width: 10px;
-      height: 10px;
+      width: 15px;
+      height: 15px;
       background-color: black;
       border-radius: 50%; }
     .carousel .slick-dots .slick-active button {
@@ -536,7 +537,12 @@ h1, h2, h3, h4, h5, h6 {
 
   .advant__title {
     font-size: 20px;
-    margin-bottom: 50px; } }
+    margin-bottom: 50px; }
+
+  .carousel {
+    padding: 81px 0; }
+    .carousel__inner {
+      width: 270px; } }
 @media (max-width: 430px) {
   .advant__item {
     max-width: 320px; }

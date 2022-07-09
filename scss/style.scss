@@ -309,6 +309,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 		}
 	}
 	& .slick-dots{
+		margin-top: 15px;
 		display: flex;
 		align-items:center;
 		justify-content: center;
@@ -318,8 +319,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 		}
 		& button{
 			font-size: 0;
-			width: 10px;
-			height: 10px;
+			width: 15px;
+			height: 15px;
 			background-color:black;
 			border-radius:50%;
 		}
@@ -538,38 +539,13 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 			margin-bottom: 50px;
 		}
 	}
-	// .carousel{
-	// 	padding: 81px 0;
-	// 	&__inner{
-	// 		position: relative;
-	// 		width: 750px;
-	// 		margin: 0 auto;
-	// 	}
-	// 	& .slick-prev{
-	// 		position: absolute;
-	// 		top: 50%;
-	// 		transform: translateY(-50%);
-	// 		left:-66px;
-	// 		background-color:white;
-	// 		border:none;
-	// 		img{
-	// 			width: 31px;
-	// 			height: 50px;
-	// 		}
-	// 	}
-	// 	& .slick-next{
-	// 		position: absolute;
-	// 		top: 50%;
-	// 		transform: translateY(-50%);
-	// 		right:-66px;
-	// 		background-color:white;
-	// 		border:none;
-	// 		img{
-	// 			width: 31px;
-	// 			height: 50px;
-	// 		}
-	// 	}
-	// }
+	.carousel{
+		padding: 81px 0;
+		&__inner{
+			width: 270px;
+		}
+		
+	}
 	
 
 }
