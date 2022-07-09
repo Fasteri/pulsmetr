@@ -321,6 +321,57 @@ h1, h2, h3, h4, h5, h6 {
     color: #ffffff;
     margin-bottom: 36px; }
 
+.carousel {
+  padding: 81px 0; }
+  .carousel__inner {
+    position: relative;
+    width: 750px;
+    margin: 0 auto; }
+  .carousel .slick-prev {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    left: -66px;
+    background-color: white;
+    border: none; }
+    .carousel .slick-prev img {
+      width: 31px;
+      height: 50px; }
+  .carousel .slick-next {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    right: -66px;
+    background-color: white;
+    border: none; }
+    .carousel .slick-next img {
+      width: 31px;
+      height: 50px; }
+  .carousel .slick-dots {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .carousel .slick-dots li {
+      list-style: none;
+      margin: 0 10px; }
+    .carousel .slick-dots button {
+      font-size: 0;
+      width: 10px;
+      height: 10px;
+      background-color: black;
+      border-radius: 50%; }
+    .carousel .slick-dots .slick-active button {
+      background-color: transparent;
+      border: 1px solid black; }
+
 @media (max-width: 1024px) {
   .container {
     max-width: 800px; }
@@ -332,7 +383,23 @@ h1, h2, h3, h4, h5, h6 {
     background: url(../img/bg_header_2.jpg) center center/cover no-repeat; }
 
   .consultantation__title {
-    font-size: 30px; } }
+    font-size: 30px; }
+
+  .carousel__inner {
+    width: 400px; }
+    .carousel__inner img {
+      width: 100%;
+      text-align: center; }
+  .carousel .slick-prev {
+    left: -30px; }
+    .carousel .slick-prev img {
+      width: 25px;
+      height: 40px; }
+  .carousel .slick-next {
+    right: -30px; }
+    .carousel .slick-next img {
+      width: 25px;
+      height: 40px; } }
 @media (max-width: 850px) {
   .container {
     min-width: 0; }
