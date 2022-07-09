@@ -20,8 +20,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 @font-face {
 	font-display: swap;
 	font-family: 'MuseoSansCyrl';
+	
 	src: url('../fonts/museosanscyrl-300.eot'); /* IE 9 Compatibility Mode */
-	src: url('../fonts/museosanscyrl-300.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+	src:local("Roboto"), url('../fonts/museosanscyrl-300.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
 		url('../fonts/museosanscyrl-300.woff2') format('woff2'), /* Super Modern Browsers */
 		url('../fonts/museosanscyrl-300.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
 		url('../fonts/museosanscyrl-300.ttf') format('truetype'), /* Safari, Android, iOS */
