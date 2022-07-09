@@ -394,7 +394,7 @@ h1, h2, h3, h4, h5, h6 {
   .advant__title {
     font-size: 20px;
     margin-bottom: 50px; } }
-@media (max-width: 320px) {
+@media (max-width: 350px) {
   .header__logo img {
     width: 180px; }
   .header__phone {
