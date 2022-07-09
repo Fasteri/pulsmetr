@@ -155,7 +155,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 		align-items:center;
 		text-align: center;
 		& img{
-			max-width: 45px;
+			width: 45px;
+			height: 40px;
 			margin-bottom: 20px;
 		}
 		& p{
@@ -163,6 +164,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 			font-weight: 500;
 			color: #ffffff;
 			max-width: 110px;
+	
 		}
 	}
 	&__link {
@@ -373,8 +375,13 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 	}
 
 }
+@media(max-width:430px){
+	.advant__item{
+		max-width: 320px;
+	}
+}
 
-@media only screen and (max-width:320px){
+@media (max-width:320px){
 	.header{
 		&__logo{
 			img{
@@ -403,8 +410,29 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 			img{
 				max-width: 40px;
 			}
+
 		}	
 
 	}
 }
-
+ @media(max-width:355px) and (min-width:321px){
+	.promo{
+		&__icons{
+			max-width: 320px;
+		}
+		&__icon{
+			p{
+				max-width: 90px;
+			}
+		}
+	}
+	.header{
+		&__phone{
+			font-size: 10px;
+		}
+		.button{
+			width: 90px;
+			font-size: 9px;
+		}
+	}
+ }
