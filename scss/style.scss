@@ -150,7 +150,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 }
 
 .promo {
-	background: url(../img/bg.jpg) center (center/cover) no-repeat;
+	background: url(../img/bg.webp) center (center/cover) no-repeat;
 	min-height: 650px;
 	padding: 24px 0 93px 0;
 	&__wrapper {
@@ -261,7 +261,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 }
 
 .consultantation {
-	background: url(../img/form_bg.jpg) center (center/cover) no-repeat;
+	background: url(../img/form_bg_2.webp) center (center/cover) no-repeat;
 	min-height:680px;
 	padding: 100px 0 92px 0;
 	
@@ -348,7 +348,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 		}
 	}
 	.promo{
-		background: url(../img/bg_header_2.jpg) center (center/cover) no-repeat;
+		background: url(../img/bg_header_2.webp) center (center/cover) no-repeat;
 	}
 	.consultantation{
 		&__title{
@@ -463,7 +463,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 		}	
 	}	
 	.consultantation{
-		background: url(../img/form_bg_2.jpg) center (center/cover) no-repeat;
+		background: url(../img/form_bg_2.webp) center (center/cover) no-repeat;
 		& .container{
 			max-width: 500px;
 		}

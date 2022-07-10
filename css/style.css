@@ -188,7 +188,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 8px; }
 
 .promo {
-  background: url(../img/bg.jpg) center center/cover no-repeat;
+  background: url(../img/bg.webp) center center/cover no-repeat;
   min-height: 650px;
   padding: 24px 0 93px 0; }
   .promo__wrapper {
@@ -308,7 +308,7 @@ h1, h2, h3, h4, h5, h6 {
       margin-bottom: 38px; }
 
 .consultantation {
-  background: url(../img/form_bg.jpg) center center/cover no-repeat;
+  background: url(../img/form_bg_2.webp) center center/cover no-repeat;
   min-height: 680px;
   padding: 100px 0 92px 0; }
   .consultantation__title {
@@ -384,7 +384,7 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 950px; }
 
   .promo {
-    background: url(../img/bg_header_2.jpg) center center/cover no-repeat; }
+    background: url(../img/bg_header_2.webp) center center/cover no-repeat; }
 
   .consultantation__title {
     font-size: 30px; }
@@ -482,7 +482,7 @@ h1, h2, h3, h4, h5, h6 {
       font-size: 16px; }
 
   .consultantation {
-    background: url(../img/form_bg_2.jpg) center center/cover no-repeat; }
+    background: url(../img/form_bg_2.webp) center center/cover no-repeat; }
     .consultantation .container {
       max-width: 500px; }
     .consultantation .feed-form {
