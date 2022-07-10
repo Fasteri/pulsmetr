@@ -59,6 +59,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*--------------------*/
 @font-face {
+  font-display: swap;
   font-family: 'MuseoSansCyrl';
   src: url("../fonts/museosanscyrl-300.eot");
   /* IE 9 Compatibility Mode */
@@ -67,6 +68,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   font-style: normal; }
 @font-face {
+  font-display: swap;
   font-family: 'MuseoSansCyrl';
   src: url("../fonts/museosanscyrl-500.eot");
   /* IE 9 Compatibility Mode */
@@ -75,6 +77,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
   font-style: normal; }
 @font-face {
+  font-display: swap;
   font-family: 'MuseoSansCyrl';
   src: url("../fonts/museosanscyrl-700.eot");
   /* IE 9 Compatibility Mode */
@@ -126,7 +129,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 18px; }
 
 * {
-  font-family: "MuseoSansCyrl"; }
+  font-family: 'MuseoSansCyrl', 'Arial','Roboto', sans-serif; }
 
 .container {
   max-width: 950px;
