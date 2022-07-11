@@ -404,6 +404,7 @@ hr {
 	}
 }
 .catalog-item {
+	position: relative;
 	overflow: hidden;
 	padding: 20px 20px 26px 20px;
 	width: 300px;
@@ -474,12 +475,9 @@ hr {
 		}
 		&__content{
 			transition: 0.5s all;;
-			width: 50%;
-			margin-right: 0;
-			transform: translateX(-110%);
+			transform: translateX(-120%);
 			&_active{
 				transform: translateX(0%);
-				margin-right: 20px;
 			}
 		}
 		&__back{
@@ -494,15 +492,14 @@ hr {
 			border-bottom: 1px solid red;
 		}
 		&__list{
-			transition: 0.5s all;;
-			width: 50%;
-			margin-left: 20px;
-			transform: translateX(0%);
-			padding-right: 24px;
-			padding-left: 19px;
+			position: absolute;
+			width: 245px;
+			height: 316px;
+			top: 22px;
+			left: 380px;
+			transition: 0.5s all;;		
 			&_active{
-				transform: translateX(-100%);
-				margin-left: 0;
+				left: 36px;
 			}
 			& li{
 				position: relative;
@@ -560,14 +557,14 @@ hr {
 			}
 		}
 		& .slick-prev{
-			left:-30px;
+			left:-50px;
 			img{
 				width:25px;
 				height: 40px;
 			}
 		}
 		& .slick-next{
-			right:-30px;
+			right:-50px;
 			img{
 				width: 25px;
 				height: 40px;
@@ -780,18 +777,6 @@ hr {
 	}
 	
 }
-@media(max-width:390px){
-	.catalog{
-		&__title{
-			font-size: 20px;
-		}
-		&__tab{
-			width:230px;
-			height: 35px;
-			line-height: 35px;
-		}
-	}
-}
 
 @media(max-width:430px){
 	.advant__item{
@@ -816,6 +801,43 @@ hr {
 	}
 }
 
+@media(max-width:390px){
+	.catalog{
+		&__title{
+			font-size: 20px;
+		}
+		&__tab{
+			width:230px;
+			height: 35px;
+			line-height: 35px;
+		}
+	}
+
+}
+
+
+
+@media(max-width:345px){
+	.catalog-item{
+		width: 200px;
+		height: 520px;
+		&__list{
+			top:10px;
+			width: 150px;
+			height: 378px;
+			& li{
+				margin-bottom: 15px;
+			}
+		}
+		&__prices{
+			font-size: 15px;
+			& span{
+				font-size: 13px;
+			}
+		}
+	}
+
+}
 @media (max-width:320px){
 	.header{
 		&__logo{
@@ -857,6 +879,7 @@ hr {
 			}
 		}
 	}
+
 }
  @media(max-width:355px) and (min-width:321px){
 	.promo{
