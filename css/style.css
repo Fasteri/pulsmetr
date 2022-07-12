@@ -872,11 +872,16 @@ hr {
     margin: 0 0 20px 0;
     width: 280px; }
 
-  .footer__addr {
-    font-size: 17px; }
-  .footer__phone {
-    font-size: 17px; }
   .footer__info {
+    height: 145px; }
+  .footer__addr {
+    font-size: 17px;
+    margin-bottom: 20px; }
+  .footer__phone {
+    font-size: 17px;
+    margin-bottom: 20px; }
+  .footer__info {
+    padding: 20px 0 0 0;
     top: 100%;
     left: 0;
     -webkit-transform: translateX(0%);

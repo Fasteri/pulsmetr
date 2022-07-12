@@ -896,13 +896,19 @@ hr {
 		}
 	}
 	.footer{
+		&__info{
+			height: 145px;
+		}
 		&__addr{
 			font-size: 17px;
+			margin-bottom: 20px;
 		}
 		&__phone{
 			font-size: 17px;
+			margin-bottom: 20px;
 		}
 		&__info{
+			padding: 20px 0 0 0;
 			top: 100%;
 			left:0;
 			transform: translateX(0%);
