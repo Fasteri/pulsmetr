@@ -563,6 +563,53 @@ hr {
         top: 7px;
         left: -19px; }
 
+.feedback {
+  padding: 0 20px 71px 20px; }
+  .feedback__title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #0d0d0d;
+    margin-bottom: 70px; }
+  .feedback__items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .feedback__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin-bottom: 102px; }
+    .feedback__item:last-child {
+      margin-bottom: 0px; }
+  .feedback__img {
+    margin-right: 62px; }
+  .feedback__list {
+    max-width: 660px; }
+  .feedback__name {
+    font-size: 18px;
+    font-weight: 700;
+    color: #0d0d0d;
+    margin-bottom: 10px; }
+  .feedback__col {
+    font-size: 14px;
+    font-weight: 300;
+    color: #646464;
+    margin-bottom: 19px; }
+  .feedback__descr {
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #0d0d0d; }
+
 @media (max-width: 1024px) {
   .container {
     max-width: 800px; }
@@ -697,7 +744,27 @@ hr {
     width: 150px;
     font-size: 15px; }
   .catalog__title {
-    font-size: 25px; } }
+    font-size: 25px; }
+
+  .feedback__title {
+    margin-bottom: 40px;
+    font-size: 25px; }
+  .feedback__img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px; }
+  .feedback__list {
+    text-align: center; }
+  .feedback__item {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 60px; } }
 @media (max-width: 530px) {
   .promo__header {
     font-size: 20px; }
@@ -790,7 +857,10 @@ hr {
   .header__contacts {
     padding-left: 15px; }
   .header button {
-    width: 120px; } }
+    width: 120px; }
+
+  .feedback__title {
+    font-size: 20px; } }
 @media (max-width: 345px) {
   .catalog-item {
     width: 200px;
