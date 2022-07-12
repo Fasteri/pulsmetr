@@ -812,9 +812,18 @@ hr {
 			line-height: 35px;
 		}
 	}
-
+	.header{
+		&__contacts{
+		padding-left: 15px;
+		// padding-top: 20px;
+		// 	margin-top: 20px;
+		}
+	
+		& button{
+		width: 120px;
+	}
 }
-
+}
 
 
 @media(max-width:345px){
@@ -838,7 +847,7 @@ hr {
 	}
 
 }
-@media (max-width:320px){
+@media (max-width:325px){
 	.header{
 		&__logo{
 			img{
@@ -851,6 +860,9 @@ hr {
 		.button{
 			width: 100px;
 			font-size: 10px;
+
+		}
+		&__contacts{
 
 		}
 	}
@@ -881,7 +893,7 @@ hr {
 	}
 
 }
- @media(max-width:355px) and (min-width:321px){
+ @media(max-width:355px) and (min-width:326px){
 	.promo{
 		&__icons{
 			max-width: 320px;
@@ -899,6 +911,13 @@ hr {
 		.button{
 			width: 90px;
 			font-size: 9px;
+		}
+	}
+ }
+ @media (max-width:314px){
+	.header{
+		&__contacts{
+			margin-top: 15px;
 		}
 	}
  }

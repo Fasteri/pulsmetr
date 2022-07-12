@@ -785,7 +785,12 @@ hr {
   .catalog__tab {
     width: 230px;
     height: 35px;
-    line-height: 35px; } }
+    line-height: 35px; }
+
+  .header__contacts {
+    padding-left: 15px; }
+  .header button {
+    width: 120px; } }
 @media (max-width: 345px) {
   .catalog-item {
     width: 200px;
@@ -800,7 +805,7 @@ hr {
       font-size: 15px; }
       .catalog-item__prices span {
         font-size: 13px; } }
-@media (max-width: 320px) {
+@media (max-width: 325px) {
   .header__logo img {
     width: 180px; }
   .header__phone {
@@ -826,7 +831,7 @@ hr {
     width: 250px; }
     .consultantation .feed-form button {
       font-size: 14px; } }
-@media (max-width: 355px) and (min-width: 321px) {
+@media (max-width: 355px) and (min-width: 326px) {
   .promo__icons {
     max-width: 320px; }
   .promo__icon p {
@@ -837,3 +842,6 @@ hr {
   .header .button {
     width: 90px;
     font-size: 9px; } }
+@media (max-width: 314px) {
+  .header__contacts {
+    margin-top: 15px; } }
