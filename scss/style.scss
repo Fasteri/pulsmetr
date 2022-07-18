@@ -666,7 +666,6 @@ hr {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	width: 380px;
-	min-height: 400px;
 	background-color: #f2f2f2;
 	padding: 38px 38px 40px 38px ;
 	& .feed-form{
@@ -812,7 +811,6 @@ hr {
 	}
 	.modal{
 		width: 325px;
-		height: 325px;
 
 	}
 }
@@ -1029,7 +1027,6 @@ hr {
 	}
 	.modal{
 		width: 280px;
-		height: 280px;
 
 	}
 	
@@ -1087,7 +1084,11 @@ hr {
 	}
 	.modal{
 		width: 240px;
-		height: 240px;
+		padding: 20px;
+		& .button_submit{
+			font-size: 14px;
+			height: 45px;
+		}
 
 	}
 }
@@ -1115,7 +1116,6 @@ hr {
 	}
 	.modal{
 		width: 220px;
-		height: 220px;
 		&__close{
 			right: -23px;
 			font-size: 30px;
