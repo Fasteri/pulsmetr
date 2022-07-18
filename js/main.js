@@ -37,4 +37,19 @@ $(document).ready(function(){
     toggleSlide('.catalog-item__back');
   // ----------------------------------------------------------
 
+    $('[data-modal=consultation]').on('click', function(){
+      $('.overlay, #consultation').fadeIn();
+    });
+
+    $('.modal__close').on('click', function(){
+      $('.overlay, #consultation, #thanks, #order').fadeOut();
+    });
+
+    $('.button_catalog-item').on('click', function(){
+      $('.modal__descr').text($('.catalog-item__subtitle', $(this).closest('.catalog-item')).text());
+      $('.overlay, #order').fadeIn();
+    });
+  
+
+
   });

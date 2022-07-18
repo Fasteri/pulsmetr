@@ -16,7 +16,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 	</head>
 	<body>
-		<div class="promo">
+		<section class="promo">
 			<div class="container">
 				<header class="header">
 					<a href="" class="header__logo">
@@ -28,7 +28,7 @@
 					</div>
 					<div class="header__contacts">
 						<a href="tel:+74999228974" class="header__phone"> +7 (499) 922-89-74</a>
-						<button class="button">заказать звонок</button>
+						<button  data-modal="consultation" class="button">заказать звонок</button>
 					</div>
 				</header>
 				<div class="promo__wrapper">
@@ -57,13 +57,13 @@
 							</p>
 						</div>
 					</div>
-					<button class="button button_main">заказать кОНСУЛЬТАЦИЮ</button>
+					<button data-modal="consultation" id="1122" class="button button_main">заказать кОНСУЛЬТАЦИЮ</button>
 					<div class="promo__link">
 						или <a href="#">ПЕРЕЙТИ В КАТАЛОГ</a>
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 
 		<section class="advant">
 			<div class="container">
@@ -377,6 +377,54 @@
 					</div>
 				</div>
 			</footer>
+
+			<div class="overlay">
+				<div class="modal" id="consultation">
+					<div class="modal__close">&times;</div>
+					<div class="modal__subtitle">
+						Просто заполните форму заявки
+					</div>
+					<div class="modal__descr">
+						и мы перезвоним вам в течении 10 минут
+					</div>			
+					<form action="#" class="feed-form">
+						<input name="name" required placeholder="Ваше имя" type="text">
+						<input name="phone" required placeholder="Ваш телефон" type="tel">
+						<input name="email" required placeholder="Ваш E-mail" type="email">
+						<button class="button button_submit">заказать кОНСУЛЬТАЦИЮ</button>
+					</form>
+				</div>
+
+				<div class="modal" id="order">
+					<div class="modal__close">&times;</div>
+					<div class="modal__subtitle">
+						Ваш заказ:
+					</div>
+					<div class="modal__descr">
+						Пульсометр Polar FT1
+					</div>			
+					<form action="#" class="feed-form">
+						<input name="name" required placeholder="Ваше имя" type="text">
+						<input name="phone" required placeholder="Ваш телефон" type="tel">
+						<input name="email" required placeholder="Ваш E-mail" type="email">
+						<button class="button button_submit">Купить</button>
+					</form>
+				</div>
+
+				<div class="modal modal_mini" id="thanks">
+					<div class="modal__close">&times;</div>
+					<div class="modal__subtitle">
+						Спасибо за вашу заявку!
+					</div>
+					<div class="modal__descr">
+						Наш менеджер свяжется с вами 
+						в ближайшее время!
+					</div>			
+				</div>
+
+
+
+			</div>
 		<script src="libs/jq/jquery-3.6.0.min.js"></script>
 		<script src="js/main.js"></script>
 		<script src="js/slick.min.js"></script>

@@ -688,6 +688,54 @@ hr {
       -webkit-box-shadow: 1px 10px 20px white;
               box-shadow: 1px 10px 20px white; }
 
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.56); }
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 380px;
+  min-height: 400px;
+  background-color: #f2f2f2;
+  padding: 38px 38px 40px 38px; }
+  .modal .feed-form {
+    width: 100%; }
+  .modal__close {
+    position: absolute;
+    top: 0;
+    right: -40px;
+    font-size: 41px;
+    line-height: 21px;
+    color: red;
+    cursor: pointer; }
+  .modal__subtitle {
+    text-align: center;
+    font-size: 19px;
+    font-weight: 700;
+    color: #0d0d0d;
+    margin-bottom: 11px; }
+  .modal__descr {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: #0d0d0d;
+    margin-bottom: 25px; }
+  .modal_mini {
+    min-height: 140px; }
+    .modal_mini .modal__descr {
+      margin: 0; }
+
+#consultation, #order, #thanks {
+  display: none; }
+
 @media (max-width: 1024px) {
   .container {
     max-width: 800px; }
@@ -760,7 +808,11 @@ hr {
       width: 300px;
       height: 200px; }
     .footer__phone {
-      margin-bottom: 25px; } }
+      margin-bottom: 25px; }
+
+  .modal {
+    width: 325px;
+    height: 325px; } }
 @media (max-width: 685px) {
   .header {
     -ms-flex-wrap: wrap;
@@ -939,7 +991,11 @@ hr {
     height: 40px;
     margin: 0 10px; }
     .footer__social-item img {
-      height: 20px; } }
+      height: 20px; }
+
+  .modal {
+    width: 280px;
+    height: 280px; } }
 @media (max-width: 430px) {
   .advant__item {
     max-width: 320px; }
@@ -972,7 +1028,11 @@ hr {
     width: 120px; }
 
   .feedback__title {
-    font-size: 20px; } }
+    font-size: 20px; }
+
+  .modal {
+    width: 240px;
+    height: 240px; } }
 @media (max-width: 345px) {
   .catalog-item {
     width: 200px;
@@ -986,7 +1046,14 @@ hr {
     .catalog-item__prices {
       font-size: 15px; }
       .catalog-item__prices span {
-        font-size: 13px; } }
+        font-size: 13px; }
+
+  .modal {
+    width: 220px;
+    height: 220px; }
+    .modal__close {
+      right: -23px;
+      font-size: 30px; } }
 @media (max-width: 325px) {
   .header__logo img {
     width: 180px; }
