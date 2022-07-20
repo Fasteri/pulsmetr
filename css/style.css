@@ -351,6 +351,13 @@ hr {
     font-weight: 500;
     color: #ffffff;
     margin-bottom: 36px; }
+  .consultantation .error {
+    border: 1px solid red; }
+  .consultantation label.error {
+    border: none;
+    margin-bottom: 15px;
+    color: white;
+    text-align: center; }
 
 .carousel {
   padding: 81px 0 108px 0; }
@@ -731,6 +738,12 @@ hr {
     min-height: 140px; }
     .modal_mini .modal__descr {
       margin: 0; }
+  .modal .error {
+    border: 1px solid red; }
+  .modal label.error {
+    border: none;
+    margin-bottom: 15px;
+    text-align: center; }
 
 #consultation, #order, #thanks {
   display: none; }
