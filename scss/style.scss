@@ -54,6 +54,12 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 		font-weight: 700;
 		font-style: normal;
 }
+
+
+* {
+	font-family: 'MuseoSansCyrl', 'Arial','Roboto', sans-serif;
+}
+
 hr {
 	height: 2px;
 	background-color: #e8e8e8;   
@@ -119,9 +125,6 @@ hr {
 }
 
 
-* {
-	font-family: 'MuseoSansCyrl', 'Arial','Roboto', sans-serif;
-}
 
 .container {
 	max-width: 950px;
@@ -721,12 +724,23 @@ hr {
 
 }
 
+.pageup{
+	display: none;
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	width: 40px;
+	height: 40px;
+	img{
+		width: 100%;
+	}
+}
+
 #consultation, #order, #thanks{
 	display: none;
 }
-//  .valid{
-// 	border:1px solid green;
-//  }
+
+
 
 
 @media(max-width:1024px){
@@ -774,8 +788,6 @@ hr {
 		width: 190px;
 	}
 	.catalog-item{
-		margin-right: 30px;
-		margin-left: 30px;
 		&:nth-child(n){
 			margin-right: 30px;
 			margin-left: 30px;
