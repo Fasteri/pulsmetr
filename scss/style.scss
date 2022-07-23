@@ -837,7 +837,7 @@ hr {
 		}
 	}
 	.footer{
-		height: 550px;
+		max-height: 550px;
 		&__info{
 			width: 300px;
 			height: 200px;
@@ -1029,7 +1029,14 @@ hr {
 
 		}
 	}
+	.feedback{
+		padding-bottom: 50px;
+	}
 	.footer{
+		height: 0px;
+		& .googleMap{
+			display: none;
+		}
 		&__info{
 			height: 145px;
 		}
